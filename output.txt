@@ -1,0 +1,498 @@
+Tue Mar 16 08:26:13 PDT 2021
+Linux csslab12.uwb.edu 3.10.0-1160.11.1.el7.x86_64 #1 SMP Fri Dec 18 16:34:56 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+uid=1051312(hazer) gid=2121051312(hazer) groups=2121051312(hazer),605559(lab-access)
+=====================================================
+1. Compiles without warnings with -Wall -Wextra flags
+=====================================================
+=====================================================
+2. Runs and produces correct output
+=====================================================
+Start testStore1
+End testStore1
+Start testStore2
+Testing getCustomerID(): 1234
+Testing getFirstName(): Harry
+Testing getLastName(): Potter
+End testStore2
+Start testStore3
+Movie type Z is not valid and is unrecognized: Z, 10, Gore Verbinski, Pirates of the Caribbean, 2003
+Movie 2 1942 Ingrid Bergman could not be found.
+Movie You've Got Mail 1998 could not be found.
+Customer 1222 could not be found.
+History for Harry Potter
+-----End of History for Harry Potter-----
+The Current Inventory: 
+F, 10, Gore Verbinski, Pirates of the Caribbean, 2003
+F, 10, Gore Verbinski, Pirates of the Caribbean, 2003
+D, 10, Phillippe De Broca, King of Hearts, 1967
+D, 10, Phillippe De Broca, King of Hearts, 1967
+C, 10, Michael Curtiz, Casablanca, Ingrid Bergman, 8 1942
+C, 10, Michael Curtiz, Casablanca, Ingrid Bergman, 8 1942
+
+Customer 1222 could not be found
+End testStore3
+Start testStore4
+C, 10, Michael Curtiz, Casablanca, Ingrid Bergman, 8 1942
+Testing getStock(): 10
+Testing getTitle(): Casablanca
+Testing getDirector(): John Landis
+Testing getReleaseYear(): 1978
+Testing getHashKey(): National Lampoon's Animal House 1978
+Testing getMediaType(): D
+Testing getMovieType(): F
+C, 10, Michael Curtiz, Casablanca, Ingrid Bergman, 8 1942
+0: 1234
+End testStore4
+Start testStore5
+The movie file could not be found.
+The commands file could not be found.
+End testStore5
+=====================================
+Start testStoreFinal
+Movie type Z is not valid and is unrecognized: Z, 10, Hal Ashby, Harold and Maude, Bud Cort 3 1971
+Movie type Z is not valid and is unrecognized: Z, 10, Frank Capra, It's a Wonderful Life, James Steward 11 1946
+The Current Inventory: 
+F, 10, Nora Ephron, Sleepless in Seattle, 1993
+F, 10, Woody Allen, Annie Hall, 1977
+F, 10, Rob Reiner, When Harry Met Sally, 1989
+F, 10, Gore Verbinski, Pirates of the Caribbean, 2003
+F, 10, Different Years, Pirates of the Caribbean, 2000
+F, 10, Joel Coen, Fargo, 1996
+F, 10, John Landis, National Lampoon's Animal House, 1978
+F, 10, Nora Ephron, You've Got Mail, 1998
+D, 10, Nancy Savoca, Dogfight, 1991
+D, 10, Clint Eastwood, Unforgiven, 1992
+D, 10, Gus Van Sant, Good Will Hunting, 2000
+D, 10, Jonathan Demme, Silence of the Lambs, 1991
+D, 10, Phillippe De Broca, King of Hearts, 1967
+D, 10, Barry Levinson, Same Director Good Morning Vietnam, 1988
+D, 10, Barry Levinson, Good Morning Vietnam, 1988
+D, 10, Steven Spielberg, Schindler's List, 1993
+C, 10, Stanley Kubrick, A Clockwork Orange, Malcolm McDowell, 2 1971
+C, 10, George Cukor, The Philadelphia Story, Cary Grant, 5 1940
+C, 10, Victor Fleming, Gone With the Wind, Clark Gable, 2 1939
+C, 10, Frank Capra, It's a Wonderful Life, Donna Reed, 11 1946
+C, 10, John Huston, The Maltese Falcon, Humphrey Bogart, 10 1941
+C, 10, Frank Capra, It's a Wonderful Life, James Steward, 11 1946
+C, 10, George Cukor, The Philadelphia Story, Katherine Hepburn, 5 1940
+C, 10, Victor Fleming, Gone With the Wind, Vivien Leigh, 2 1939
+C, 10, George Cukor, Holiday, Cary Grant, 9 1938
+C, 10, George Cukor, Holiday, Katherine Hepburn, 9 1938
+C, 10, Hal Ashby, Harold and Maude, Ruth Gordon, 3 1971
+C, 10, Victor Fleming, The Wizard of Oz, Judy Garland, 7 1939
+C, 10, Michael Curtiz, Casablanca, Humphrey Bogart, 8 1942
+C, 10, Michael Curtiz, Casablanca, Ingrid Bergman, 8 1942
+
+History for Mouse Minnie
+-----End of History for Mouse Minnie-----
+History for Frog Freddie
+-----End of History for Frog Freddie-----
+History for Wacky Wally
+-----End of History for Wacky Wally-----
+Movie 2 1971 Malcolm McDowell is not available for movieType Z
+X is not a valid command.
+Z is not a valid command.
+Customer 1234 could not be found.
+Movie Bogus Title 2001 could not be found.
+Movie Fargo 1996 is not available for mediaType Z
+There are not enough of 3 1971 Ruth Gordon
+There are not enough of 3 1971 Ruth Gordon
+There are not enough of 3 1971 Ruth Gordon
+Movie Steven Spielberg Bogus Title could not be found.
+The Current Inventory: 
+F, 9, Nora Ephron, Sleepless in Seattle, 1993
+F, 9, Woody Allen, Annie Hall, 1977
+F, 9, Rob Reiner, When Harry Met Sally, 1989
+F, 10, Gore Verbinski, Pirates of the Caribbean, 2003
+F, 10, Different Years, Pirates of the Caribbean, 2000
+F, 9, Joel Coen, Fargo, 1996
+F, 9, John Landis, National Lampoon's Animal House, 1978
+F, 9, Nora Ephron, You've Got Mail, 1998
+D, 8, Nancy Savoca, Dogfight, 1991
+D, 9, Clint Eastwood, Unforgiven, 1992
+D, 9, Gus Van Sant, Good Will Hunting, 2000
+D, 9, Jonathan Demme, Silence of the Lambs, 1991
+D, 9, Phillippe De Broca, King of Hearts, 1967
+D, 10, Barry Levinson, Same Director Good Morning Vietnam, 1988
+D, 9, Barry Levinson, Good Morning Vietnam, 1988
+D, 9, Steven Spielberg, Schindler's List, 1993
+C, 9, Stanley Kubrick, A Clockwork Orange, Malcolm McDowell, 2 1971
+C, 9, George Cukor, The Philadelphia Story, Cary Grant, 5 1940
+C, 10, Victor Fleming, Gone With the Wind, Clark Gable, 2 1939
+C, 10, Frank Capra, It's a Wonderful Life, Donna Reed, 11 1946
+C, 9, John Huston, The Maltese Falcon, Humphrey Bogart, 10 1941
+C, 10, Frank Capra, It's a Wonderful Life, James Steward, 11 1946
+C, 9, George Cukor, The Philadelphia Story, Katherine Hepburn, 5 1940
+C, 10, Victor Fleming, Gone With the Wind, Vivien Leigh, 2 1939
+C, 9, George Cukor, Holiday, Cary Grant, 9 1938
+C, 10, George Cukor, Holiday, Katherine Hepburn, 9 1938
+C, 0, Hal Ashby, Harold and Maude, Ruth Gordon, 3 1971
+C, 10, Victor Fleming, The Wizard of Oz, Judy Garland, 7 1939
+C, 10, Michael Curtiz, Casablanca, Humphrey Bogart, 8 1942
+C, 10, Michael Curtiz, Casablanca, Ingrid Bergman, 8 1942
+
+History for Mouse Minnie
+B 1000 D C 3 1971 Ruth Gordon
+B 1000 D C 5 1940 Cary Grant
+B 1000 D D Gus Van Sant, Good Will Hunting,
+B 1000 D C 5 1940 Katherine Hepburn
+B 1000 D D Barry Levinson, Good Morning Vietnam,
+-----End of History for Mouse Minnie-----
+History for Mouse Mickey
+B 1111 D C 9 1938 Cary Grant
+B 1111 D C 10 1941 Humphrey Bogart
+B 1111 D C 3 1971 Ruth Gordon
+B 1111 D C 2 1971 Malcolm McDowell
+-----End of History for Mouse Mickey-----
+History for Frog Freddie
+B 5000 D C 3 1971 Ruth Gordon
+R 5000 D C 3 1971 Ruth Gordon
+B 5000 D C 3 1971 Ruth Gordon
+R 5000 D C 3 1971 Ruth Gordon
+B 5000 D C 3 1971 Ruth Gordon
+R 5000 D C 3 1971 Ruth Gordon
+B 5000 D C 3 1971 Ruth Gordon
+-----End of History for Frog Freddie-----
+History for Wacky Wally
+B 8000 D F National Lampoon's Animal House, 1978
+B 8000 D C 3 1971 Ruth Gordon
+B 8000 D C 3 1971 Ruth Gordon
+R 8000 D F You've Got Mail, 1998
+B 8000 D F You've Got Mail, 1998
+-----End of History for Wacky Wally-----
+History for Pig Porky
+B 8888 D C 3 1971 Ruth Gordon
+B 8888 D D Nancy Savoca, Dogfight,
+B 8888 D D Jonathan Demme, Silence of the Lambs,
+B 8888 D F When Harry Met Sally, 1989
+B 8888 D F Annie Hall, 1977
+-----End of History for Pig Porky-----
+End testStoreFinal
+=====================================
+Done.
+=====================================================
+3. clang-tidy warnings are fixed
+=====================================================
+16734 warnings generated.
+30409 warnings generated.
+43966 warnings generated.
+60815 warnings generated.
+77636 warnings generated.
+91191 warnings generated.
+103497 warnings generated.
+116611 warnings generated.
+133339 warnings generated.
+150034 warnings generated.
+160784 warnings generated.
+174328 warnings generated.
+187902 warnings generated.
+204598 warnings generated.
+221370 warnings generated.
+238112 warnings generated.
+251247 warnings generated.
+269100 warnings generated.
+285836 warnings generated.
+302565 warnings generated.
+315083 warnings generated.
+Suppressed 315083 warnings (315083 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+=====================================================
+4. clang-format does not find any formatting issues
+=====================================================
+Running clang-format on ./borrow.cpp
+Running clang-format on ./classics.cpp
+Running clang-format on ./comedy.cpp
+Running clang-format on ./customer.cpp
+Running clang-format on ./customerStorage.cpp
+Running clang-format on ./drama.cpp
+Running clang-format on ./hashNode.cpp
+Running clang-format on ./hashTable.cpp
+Running clang-format on ./history.cpp
+Running clang-format on ./inventory.cpp
+Running clang-format on ./main.cpp
+Running clang-format on ./movie.cpp
+Running clang-format on ./movieFactory.cpp
+Running clang-format on ./return.cpp
+Running clang-format on ./returnOrBorrow.cpp
+Running clang-format on ./store.cpp
+Running clang-format on ./storeInventory.cpp
+Running clang-format on ./store_test.cpp
+Running clang-format on ./transaction.cpp
+Running clang-format on ./transactionFactory.cpp
+Running clang-format on ./utility.cpp
+=====================================================
+5. No memory leaks using g++
+=====================================================
+=====================================================
+6. No memory leaks using valgrind, look for "definitely lost" 
+=====================================================
+==28666== Memcheck, a memory error detector
+==28666== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==28666== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==28666== Command: ./a.out
+==28666== Parent PID: 28066
+==28666== 
+==28666== 
+==28666== HEAP SUMMARY:
+==28666==     in use at exit: 0 bytes in 0 blocks
+==28666==   total heap usage: 1,134 allocs, 1,134 frees, 189,311 bytes allocated
+==28666== 
+==28666== All heap blocks were freed -- no leaks are possible
+==28666== 
+==28666== For lists of detected and suppressed errors, rerun with: -s
+==28666== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+=====================================================
+7. Tests have full code coverage
+=====================================================
+File '/home/NETID/hazer/2021wi343b-movie-helinaazer-4/borrow.cpp':
+Name                                      Regions    Miss   Cover     Lines    Miss   Cover
+-------------------------------------------------------------------------------------------
+Borrow::innerProcess(Movie*, Customer*)         4       0 100.00%         8       0 100.00%
+-------------------------------------------------------------------------------------------
+TOTAL                                           4       0 100.00%         8       0 100.00%
+
+File '/home/NETID/hazer/2021wi343b-movie-helinaazer-4/classics.cpp':
+Name                                       Regions    Miss   Cover     Lines    Miss   Cover
+--------------------------------------------------------------------------------------------
+Classics::Classics()                             1       0 100.00%         4       0 100.00%
+Classics::set(std::istream&)                     1       0 100.00%        11       0 100.00%
+Classics::getHashKey()                           3       0 100.00%         7       0 100.00%
+Classics::operator<(Movie const&) const          8       1  87.50%        10       2  80.00%
+Classics::operator==(Movie const&) const         4       1  75.00%        10       2  80.00%
+Classics::output(std::ostream&) const            1       0 100.00%         5       0 100.00%
+--------------------------------------------------------------------------------------------
+TOTAL                                           18       2  88.89%        47       4  91.49%
+
+File '/home/NETID/hazer/2021wi343b-movie-helinaazer-4/comedy.cpp':
+Name                                       Regions    Miss   Cover     Lines    Miss   Cover
+--------------------------------------------------------------------------------------------
+Comedy::Comedy()                                 1       0 100.00%         5       0 100.00%
+Comedy::set(std::istream&)                       1       0 100.00%         7       0 100.00%
+Comedy::getHashKey()                             3       0 100.00%         6       0 100.00%
+Comedy::operator<(Movie const&) const            8       3  62.50%        11       4  63.64%
+Comedy::output(std::ostream&) const              1       0 100.00%         5       0 100.00%
+--------------------------------------------------------------------------------------------
+TOTAL                                           14       3  78.57%        34       4  88.24%
+
+File '/home/NETID/hazer/2021wi343b-movie-helinaazer-4/customer.cpp':
+Name                                                Regions    Miss   Cover     Lines    Miss   Cover
+-----------------------------------------------------------------------------------------------------
+Customer::Customer()                                      1       0 100.00%         5       0 100.00%
+Customer::Customer(std::string, std::string, int)         1       0 100.00%         5       0 100.00%
+Customer::set(std::istream&)                             10       2  80.00%        19       4  78.95%
+Customer::getCustomerID() const                           1       0 100.00%         1       0 100.00%
+Customer::getFullName() const                             1       0 100.00%         1       0 100.00%
+Customer::getFirstName() const                            1       0 100.00%         1       0 100.00%
+Customer::getLastName() const                             1       0 100.00%         1       0 100.00%
+Customer::storeHistory(std::string const&)                1       0 100.00%         1       0 100.00%
+Customer::showHistory(std::ostream&)                      1       0 100.00%         5       0 100.00%
+Customer::doBorrow(Movie*)                                5       0 100.00%         9       0 100.00%
+Customer::doReturn(Movie*)                               13       2  84.62%        18       5  72.22%
+-----------------------------------------------------------------------------------------------------
+TOTAL                                                    36       4  88.89%        66       9  86.36%
+
+File '/home/NETID/hazer/2021wi343b-movie-helinaazer-4/customerStorage.cpp':
+Name                                                                            Regions    Miss   Cover     Lines    Miss   Cover
+---------------------------------------------------------------------------------------------------------------------------------
+CustomerStorage::CustomerStorage()                                                    1       0 100.00%         1       0 100.00%
+CustomerStorage::~CustomerStorage()                                                   1       0 100.00%         3       0 100.00%
+CustomerStorage::addCustomer(Customer*)                                               5       0 100.00%         5       0 100.00%
+CustomerStorage::findCustomer(int)                                                    3       0 100.00%         4       0 100.00%
+CustomerStorage::customerIDs()                                                        1       0 100.00%         8       0 100.00%
+customerStorage.cpp:_ZZN15CustomerStorageD1EvENK3$_0clEiP8Customer                    1       0 100.00%         1       0 100.00%
+customerStorage.cpp:_ZZN15CustomerStorage11customerIDsEvENK3$_1clEiP8Customer         1       0 100.00%         4       0 100.00%
+---------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                13       0 100.00%        26       0 100.00%
+
+File '/home/NETID/hazer/2021wi343b-movie-helinaazer-4/drama.cpp':
+Name                                                                            Regions    Miss   Cover     Lines    Miss   Cover
+---------------------------------------------------------------------------------------------------------------------------------
+Drama::Drama()                                                                        1       0 100.00%         1       0 100.00%
+Drama::set(std::istream&)                                                             1       0 100.00%         7       0 100.00%
+Drama::getHashKey()                                                                   3       0 100.00%         6       0 100.00%
+Drama::operator<(Movie const&) const                                                  6       2  66.67%         9       4  55.56%
+Drama::output(std::ostream&) const                                                    1       0 100.00%         5       0 100.00%
+---------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                12       2  83.33%        28       4  85.71%
+
+File '/home/NETID/hazer/2021wi343b-movie-helinaazer-4/history.cpp':
+Name                                                                            Regions    Miss   Cover     Lines    Miss   Cover
+---------------------------------------------------------------------------------------------------------------------------------
+History::set(std::string)                                                             1       0 100.00%         7       0 100.00%
+History::transactionProcess(StoreInventory*, CustomerStorage*)                        4       0 100.00%         8       0 100.00%
+---------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                 5       0 100.00%        15       0 100.00%
+
+File '/home/NETID/hazer/2021wi343b-movie-helinaazer-4/inventory.cpp':
+Name                                                                            Regions    Miss   Cover     Lines    Miss   Cover
+---------------------------------------------------------------------------------------------------------------------------------
+Inventory::transactionProcess(StoreInventory*, CustomerStorage*)                      1       0 100.00%         4       0 100.00%
+---------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                 1       0 100.00%         4       0 100.00%
+
+File '/home/NETID/hazer/2021wi343b-movie-helinaazer-4/main.cpp':
+Name                                                                            Regions    Miss   Cover     Lines    Miss   Cover
+---------------------------------------------------------------------------------------------------------------------------------
+main                                                                                  1       0 100.00%         5       0 100.00%
+---------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                 1       0 100.00%         5       0 100.00%
+
+File '/home/NETID/hazer/2021wi343b-movie-helinaazer-4/movie.cpp':
+Name                                                                            Regions    Miss   Cover     Lines    Miss   Cover
+---------------------------------------------------------------------------------------------------------------------------------
+operator<<(std::ostream&, Movie const&)                                               1       0 100.00%         3       0 100.00%
+Movie::set(std::istream&)                                                             1       0 100.00%        10       0 100.00%
+Movie::increaseStock(int)                                                             1       0 100.00%         4       0 100.00%
+Movie::decreaseStock(int)                                                             4       0 100.00%         9       0 100.00%
+Movie::operator<(Movie const&) const                                                  1       0 100.00%         3       0 100.00%
+Movie::operator==(Movie const&) const                                                 7       0 100.00%         4       0 100.00%
+Movie::output(std::ostream&) const                                                    1       0 100.00%         4       0 100.00%
+Movie::Movie(char, char)                                                              1       0 100.00%         8       0 100.00%
+---------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                17       0 100.00%        45       0 100.00%
+
+File '/home/NETID/hazer/2021wi343b-movie-helinaazer-4/movieFactory.cpp':
+Name                                                                            Regions    Miss   Cover     Lines    Miss   Cover
+---------------------------------------------------------------------------------------------------------------------------------
+MovieFactory::create(std::string)                                                    11       0 100.00%        26       0 100.00%
+---------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                11       0 100.00%        26       0 100.00%
+
+File '/home/NETID/hazer/2021wi343b-movie-helinaazer-4/return.cpp':
+Name                                                                            Regions    Miss   Cover     Lines    Miss   Cover
+---------------------------------------------------------------------------------------------------------------------------------
+Return::innerProcess(Movie*, Customer*)                                               4       1  75.00%         9       3  66.67%
+---------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                 4       1  75.00%         9       3  66.67%
+
+File '/home/NETID/hazer/2021wi343b-movie-helinaazer-4/returnOrBorrow.cpp':
+Name                                                                            Regions    Miss   Cover     Lines    Miss   Cover
+---------------------------------------------------------------------------------------------------------------------------------
+ReturnOrBorrow::transactionProcess(StoreInventory*, CustomerStorage*)                13       0 100.00%        23       0 100.00%
+ReturnOrBorrow::set(std::string)                                                      1       0 100.00%        13       0 100.00%
+---------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                14       0 100.00%        36       0 100.00%
+
+File '/home/NETID/hazer/2021wi343b-movie-helinaazer-4/store.cpp':
+Name                                                                            Regions    Miss   Cover     Lines    Miss   Cover
+---------------------------------------------------------------------------------------------------------------------------------
+Store::Store()                                                                        1       0 100.00%         1       0 100.00%
+Store::readMovie(std::string const&)                                                  7       0 100.00%        15       0 100.00%
+Store::readCustomers(std::string const&)                                              8       1  87.50%        16       2  87.50%
+Store::commands(std::string const&)                                                   7       0 100.00%        15       0 100.00%
+---------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                23       1  95.65%        47       2  95.74%
+
+File '/home/NETID/hazer/2021wi343b-movie-helinaazer-4/storeInventory.cpp':
+Name                                                                            Regions    Miss   Cover     Lines    Miss   Cover
+---------------------------------------------------------------------------------------------------------------------------------
+operator<<(std::ostream&, StoreInventory const&)                                      1       0 100.00%         4       0 100.00%
+StoreInventory::StoreInventory()                                                      1       0 100.00%         1       0 100.00%
+StoreInventory::~StoreInventory()                                                     9       0 100.00%         9       0 100.00%
+StoreInventory::findMovie(std::string const&)                                         1       0 100.00%         5       0 100.00%
+StoreInventory::addMovie(Movie*)                                                      3       0 100.00%         6       0 100.00%
+StoreInventory::addSorted(Movie*)                                                    12       0 100.00%        16       0 100.00%
+StoreInventory::accepted(char)                                                        6       2  66.67%        13       1  92.31%
+StoreInventory::output(std::ostream&) const                                           7       0 100.00%         8       0 100.00%
+---------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                40       2  95.00%        62       1  98.39%
+
+File '/home/NETID/hazer/2021wi343b-movie-helinaazer-4/store_test.cpp':
+Name                                                                            Regions    Miss   Cover     Lines    Miss   Cover
+---------------------------------------------------------------------------------------------------------------------------------
+testStore1()                                                                          3       0 100.00%        20       0 100.00%
+testStore2()                                                                          1       0 100.00%        14       0 100.00%
+testStore3()                                                                          1       0 100.00%         8       0 100.00%
+testStore4()                                                                          1       0 100.00%        36       0 100.00%
+testStore5()                                                                          1       0 100.00%         7       0 100.00%
+testStoreFinal()                                                                      1       0 100.00%        10       0 100.00%
+testAll()                                                                             1       0 100.00%         8       0 100.00%
+---------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                 9       0 100.00%       103       0 100.00%
+
+File '/home/NETID/hazer/2021wi343b-movie-helinaazer-4/transaction.cpp':
+Name                                                                            Regions    Miss   Cover     Lines    Miss   Cover
+---------------------------------------------------------------------------------------------------------------------------------
+Transaction::Transaction(char)                                                        1       0 100.00%         1       0 100.00%
+Transaction::~Transaction()                                                           1       0 100.00%         1       0 100.00%
+Transaction::checkCustomerID(Customer*, int)                                          4       1  75.00%         9       5  44.44%
+Transaction::set(std::string)                                                         1       0 100.00%         1       0 100.00%
+---------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                 7       1  85.71%        12       5  58.33%
+
+File '/home/NETID/hazer/2021wi343b-movie-helinaazer-4/transactionFactory.cpp':
+Name                                                                            Regions    Miss   Cover     Lines    Miss   Cover
+---------------------------------------------------------------------------------------------------------------------------------
+TransactionFactory::createTransaction(std::string const&)                            12       0 100.00%        29       0 100.00%
+---------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                12       0 100.00%        29       0 100.00%
+
+File '/home/NETID/hazer/2021wi343b-movie-helinaazer-4/utility.cpp':
+Name                                                                            Regions    Miss   Cover     Lines    Miss   Cover
+---------------------------------------------------------------------------------------------------------------------------------
+Utility::removeTrailing(std::string&, std::string const&)                             1       0 100.00%         4       0 100.00%
+Utility::removeLeading(std::string&, std::string const&)                              1       0 100.00%         4       0 100.00%
+Utility::combine(std::string&, std::string const&)                                    1       0 100.00%         3       0 100.00%
+Utility::splitString(std::string const&, char)                                        3       0 100.00%         9       0 100.00%
+---------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                 6       0 100.00%        20       0 100.00%
+=====================================================
+The lines below were never executed
+=====================================================
+   48|      0|  return false;
+   49|      0|}
+   58|      0|    return e;
+   59|      0|  }
+   38|      0|    return Movie::operator<(movie);
+   39|      0|  }
+   40|      0|  return false;
+   41|      0|}
+   23|      0|    return false;
+   24|      0|  }
+   35|      0|    return false;
+   36|      0|  }
+   85|      0|      return false;
+   86|      0|    }
+   89|      0|  cerr << "Invalid movie" << endl;
+   90|      0|  return false;
+   91|      0|};
+   37|      0|    return Movie::operator<(movie);
+   38|      0|  }
+   39|      0|  return false;
+   40|      0|}
+  |   71|      0|            it->setValue(v);
+  |   72|      0|        }
+   96|      0|            j = it;
+   97|      0|            it = it->getNext();
+   98|      0|        }
+  100|      0|            return;
+  101|      0|        if(!j) {
+  102|      0|            table[hashValue] = it->getNext();
+  103|      0|        } else {
+  104|      0|            j->setNext(it->getNext());
+  105|      0|        }
+  106|      0|        delete it;
+  107|      0|        }
+   63|      0|    virtual string getHashKey() { return title; }
+   11|      0|    cerr << movie->getHashKey() << " cannot be returned by customer "
+   12|      0|         << customer->getCustomerID() << endl;
+   13|      0|  }
+   21|      0|    char getMediaType() { return mediaType; }
+   23|      0|    char getMovieType() { return movieType; }
+   25|      0|    string getMovieData() { return movieData; }
+   27|      0|    virtual void innerProcess(Movie* /*movie*/, Customer* /*customer*/) {};
+   30|      0|    cerr << "The customer file could not be found." << endl;
+   31|      0|  }
+   69|      0|    cerr << "Invalid! " << movieType << " is not recognized";
+   16|      0|    ostringstream s;
+   17|      0|    s << id;
+   18|      0|    cout << "Customer ID " << s.str() << " could not be found." << endl;
+   19|      0|    return true;
+   20|      0|  }
+   28|      0|    virtual void transactionProcess(StoreInventory* /*storeInventory*/, CustomerStorage* /*customerStorage*/) {};
+Tue Mar 16 08:27:57 PDT 2021
+=====================================================
+To create an output.txt file with all the output from this script
+Run the below command
+      ./create-output.sh > output.txt 2>&1 
+=====================================================

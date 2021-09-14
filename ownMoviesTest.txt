@@ -1,0 +1,7 @@
+C, 10, Michael Curtiz, Casablanca, Ingrid Bergman 8 1942
+C, 10, Michael Curtiz, Casablanca, Ingrid Bergman 8 1942
+F, 10, Gore Verbinski, Pirates of the Caribbean, 2003
+F, 10, Gore Verbinski, Pirates of the Caribbean, 2003
+D, 10, Phillippe De Broca, King of Hearts, 1967
+D, 10, Phillippe De Broca, King of Hearts, 1967
+Z, 10, Gore Verbinski, Pirates of the Caribbean, 2003
